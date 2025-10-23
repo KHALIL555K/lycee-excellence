@@ -1,11 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Acceuil | Lycee Excellence </title>
 </head>
+
 <body>
-    hello world github dflkdjflkdfj
+    <header>
+        <ul>
+            <li>(+212) 684 32 09 03</li>
+            <li>lyceeExcellence1@gmail.com</li>
+            <li>instagram : @LyceeExcellence</li>
+        </ul>
+
+    </header>
+    <nav>
+        <div class="title">
+            <img src="assets/image/image-logo-lycee-Excellence.png" alt="">
+            <h2>LYCEE <span>EXCELLENCE</span>.</h2>
+        </div>
+        <ul id="navMenu">
+            <li><a href="#" onclick="closeMenu()">Acceuil</a></li>
+            <li><a href="#" onclick="closeMenu()">Programme</a></li>
+            <li><a href="#" onclick="closeMenu()">Activite</a></li>
+            <li><a href="#" onclick="closeMenu()">Contact</a></li>
+            <li><a href="#" class="last-a">Inscription</a></li>
+        </ul>
+        <div class="burger-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </nav>
+
+
+    <main>
+
+        <div>
+            <h1>BONJOUR A NOTRE LYCEE</h1>
+            <h3>LA MEILLEURE LYCEE AU MAROC</h3>
+            <h4>LYCEE <span>EXCELLENCE</span></h4>
+        </div>
+
+        <p>Nous sommes heureux de vous accueillir pour cette journée spéciale. <br>
+            Venez découvrir nos installations, rencontrer nos enseignants et participer à de nombreuses activités.</p>
+
+
+        <a href="#">INSCRIPER A NOTRE SITE <img src="" alt=""></a>
+
+    </main>
+
+
+    <section class="section-statistique">
+        <div>
+            <h3 class="section-statistiques">0+</h3>
+            <h5>ETUDIANT</h5>
+        </div>
+
+        <div>
+            <h3 class="section-statistiques">0+</h3>
+            <h5>CLASS</h5>
+        </div>
+        <div>
+            <h3 class="section-statistiques">0+</h3>
+            <h5>PROF</h5>
+        </div>
+        <div>
+            <h3 class="section-statistiques">0+</h3>
+            <h5>EXPERIENCE</h5>
+        </div>
+    </section>
+
+
+    <section class="section-pourquoi-nous">
+        <h3>POURQUOI NOUS :</h3>
+
+        <div class="section-global">
+            <div class="section-left">
+                <img src="assets/image/image-professeur.jpg" alt="" style="grid-area: img1;">
+                <img src="assets/image/image-classe.jpg" alt="" style="grid-area: img2;">
+                <img src="assets/image/image-activite-scolaire.jpg" alt="" style="grid-area: img3;">
+                <img src="assets/image/image-transport-scolaire.jpg" alt="" style="grid-area: img4;">
+            </div>
+
+            <div class="section-right">
+                <h4>pourquoi nous ?</h4>
+                <div>
+                    <img src="assets/image/favorites.png" alt="">
+                    <p>des professeurs avec un bon qualite.</p>
+                </div>
+                <div>
+                    <img src="assets/image/favorites.png" alt="">
+                    <p>des professeurs avec un bon qualite.</p>
+                </div>
+                <div>
+                    <img src="assets/image/favorites.png" alt="">
+                    <p>des professeurs avec un bon qualite.</p>
+                </div>
+                <div>
+                    <img src="assets/image/favorites.png" alt="">
+                    <p>des professeurs avec un bon qualite.</p>
+                </div>
+
+                <a href="#">VOIR ACTIVITE</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="section-filliere">
+        <h3>LES FILLIERES DE NOTRES ETABLISSEMENT :</h3>
+        <div class="section-cards">
+            <div class="filliere-card">
+                <div>
+                    <img src="assets/image/image-Math.jpg" alt="">
+                </div>
+                <div class="inf-card">
+                    <h4>Science Mathematique : </h4>
+                    <p>notre etablissement a contient Science Mathematique A et B : </p>
+                </div>
+            </div>
+            <div class="filliere-card">
+                <div>
+                    <img src="assets/image/image-physique-chimie.jpg" alt="">
+                </div>
+                <div class="inf-card">
+                    <h4>Science Physique : </h4>
+                    <p>notre etablissement a contient Science Mathematique A et B : </p>
+                </div>
+            </div>
+            <div class="filliere-card">
+                <div>
+                    <img src="assets/image/image-svt.jpg" alt="">
+                </div>
+                <div class="inf-card">
+                    <h4>Science SVT : </h4>
+                    <p>notre etablissement a contient Science Mathematique A et B : </p>
+                </div>
+            </div>
+
+        </div>
+        <a href="#">VOIR PLUS SUR LES FILLIERES !</a>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer_brand">
+            <h2 class="footer_title">LyceeExcellence.</h2>
+        </div>
+        <div class="footer_links">
+            <h4 class="footer_heading">Links</h4>
+            <ul class="footer_list">
+                <li><a href="#" class="footer_item">Acceuil</a></li>
+                <li><a href="#" class="footer_item">Programme</a></li>
+                <li><a href="#" class="footer_item">Activite</a></li>
+                <li><a href="#" class="footer_item">Contact</a></li>
+                <li><a href="#" class="footer_item">Inscription</a></li>
+            </ul>
+        </div>
+        <div class="footer_contact">
+            <h3 class="footer_heading">Contact</h3>
+            <ul class="footer_list">
+                <li class="footer_item">Nador, LyceeExcellence</li>
+                <li class="footer_item">+212 684 32 09 03</li>
+                <li class="footer_item">lyceeExcellence1@gmail.com</li>
+            </ul>
+        </div>
+        <div>
+
+        </div>
+    </footer>
+
+
+
+    <script src="assets/JS/script.js"></script>
 </body>
+
 </html>
