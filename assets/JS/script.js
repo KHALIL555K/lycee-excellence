@@ -1,4 +1,3 @@
-
 let sectionStatistiques = document.querySelectorAll(".section-statistiques");
 let count = 0;
 
