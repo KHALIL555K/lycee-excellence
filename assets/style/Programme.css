@@ -223,6 +223,33 @@ header p {
     width: 8em;
 }
 
+
+.footer {
+    height: 40vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_heading {
+    color: white;
+    font-weight: 600;
+
+}
+
+.footer_item {
+    font-weight: 100;
+    color: white;
+}
+
+
+footer ul li {
+    margin: 1em 0;
+}
+
+
 @media (max-width:768px) {
 
     /* navbar */
@@ -308,4 +335,33 @@ header p {
         margin-bottom: 1.5em;
         text-align: center;
     }
+
+    .footer {
+        margin-top: 50em;
+        width: 100%;
+    }
+
+    .footer_title {
+        font-size: .9em;
+    }
+
+    .footer_heading {
+        color: white;
+        font-weight: 600;
+        font-size: 1em;
+
+    }
+
+    .footer_item {
+        font-weight: 100;
+        color: white;
+        font-size: .8em;
+    }
+
+
+    footer ul li {
+        margin: 1em 0;
+        font-size: .8em;
+    }
+
 }
