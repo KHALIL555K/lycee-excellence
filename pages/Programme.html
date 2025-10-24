@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/style/Programme.css?v=2">
+</head>
+
+<body>
+    <nav>
+        <div class="title">
+            <img src="assets/image/image-logo-lycee-Excellence.png" alt="">
+            <h2>LYCEE <span>EXCELLENCE</span>.</h2>
+        </div>
+        <ul id="navMenu">
+            <li><a href="#" onclick="closeMenu()">Acceuil</a></li>
+            <li><a href="#" onclick="closeMenu()">Programme</a></li>
+            <li><a href="#" onclick="closeMenu()">Activite</a></li>
+            <li><a href="#" onclick="closeMenu()">Contact</a></li>
+            <li><a href="#" class="last-a">Inscription</a></li>
+        </ul>
+        <div class="burger-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </nav>
+    <header>
+        <h1>BIENVENUE AU PROGRAMME DE LA JOURNÉE</h1>
+        <span class="underline"></span>
+        <p>Programme de la journée Découvrez le planning détaillé de cette journée spéciale.
+            Toutes les activités sont gratuites et ouvertes à tous.</p>
+    </header>
+    <main class="container">
+        <div class="program-details">
+            <h1>09:00 - 09:30</h1>
+            <span class="timline-separator">
+                <hr>
+            </span>
+            <div class="descriptiv-text">
+                <h2>Accueil et cérémonie d'ouverture</h2>
+                <p>Mot de bienvenue du directeur dans l'amphithéâtre principal.
+                    Présentation générale de l'établissement et du déroulement de la journée.</p>
+            </div>
+            <img src="/assets/image/science.jpg" alt="accueil img">
+        </div>
+        <div class="program-details">
+            <h1>09:30 - 11:00</h1>
+            <span class="timline-separator">
+                <hr>
+            </span>
+            <div class="descriptiv-text">
+                <h2>Ateliers scientifiques - Session 1</h2>
+                <p>Première session d'ateliers pratiques en sciences.
+                    Expériences de chimie, observations au microscope et démonstrations physiques.
+                    Inscription sur place.</p>
+            </div>
+            <img src="/assets/image/science.jpg" alt="science img">
+        </div>
+        <div class="program-details">
+            <h1>11:00 - 12:30</h1>
+            <span class="timline-separator">
+                <hr>
+            </span>
+            <div class="descriptiv-text">
+                <h2>Démonstrations artistiques et musicales</h2>
+                <p>Concert de l'orchestre de l'école, exposition des travaux d'élèves,
+                    démonstrations de peinture en direct. Visite libre des salles d'art.</p>
+            </div>
+            <img src="/assets/image/orchestre.jpg" alt="music img">
+        </div>
+        <div class="program-details">
+            <h1>12:30 - 14:00</h1>
+            <span class="timline-separator">
+                <hr>
+            </span>
+            <div class="descriptiv-text">
+                <h2>Pause déjeuner</h2>
+                <p>Buffet gratuit préparé par les élèves de la section restauration.
+                    Spécialités variées et produits locaux. Cafétéria ouverte.</p>
+            </div>
+            <img src="/assets/image/buffet.jpg" alt="buffet img">
+        </div>
+        <div class="program-details">
+            <h1>14:00 - 16:00</h1>
+            <span class="timline-separator">
+                <hr>
+            </span>
+            <div class="descriptiv-text">
+                <h2>Activités sportives et tournois</h2>
+                <p>Tournois de basketball et football. Initiation à l'escalade.
+                    Démonstrations de gymnastique par nos élèves. Équipements fournis.</p>
+            </div>
+            <img src="/assets/image/sport.jpg" alt="sport img">
+        </div>
+        <div class="program-details">
+            <h1>16:00 - 17:30</h1>
+            <span class="timline-separator">
+                <hr>
+            </span>
+            <div class="descriptiv-text">
+                <h2>Technologies et innovation</h2>
+                <p>Découverte de nos équipements informatiques.
+                    Ateliers de programmation et robotique.
+                    Démonstrations d'impression 3D et réalité virtuelle.</p>
+            </div>
+            <img src="/assets/image/robotique.jpg" alt="tech img">
+        </div>
+        <div class="program-details">
+            <h1>17:30 - 18:00</h1>
+            <span class="timline-separator">
+                <hr>
+            </span>
+            <div class="descriptiv-text">
+                <h2>Clôture et questions-réponses</h2>
+                <p>Session de questions avec l'équipe pédagogique.
+                    Informations sur les inscriptions pour l'année prochaine.
+                    Tombola avec de nombreux lots à gagner.</p>
+            </div>
+            <img src="/assets/image/conference.jpg" alt="Conférence img">
+        </div>
+    </main>
+    <script>
+        // Burger Menu
+        toggleMenu = () => {
+            var navMenu = document.getElementById('navMenu');
+            var burger = document.querySelector('.burger-menu');
+            navMenu.classList.toggle('active');
+            burger.classList.toggle('active');
+        }
+        closeMenu = () => {
+            var navMenu = document.getElementById('navMenu');
+            var burger = document.querySelector('.burger-menu');
+            navMenu.classList.remove('active');
+            burger.classList.remove('active');
+        }
+    </script>
+</body>
+
+</html>
