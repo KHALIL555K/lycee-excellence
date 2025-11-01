@@ -49,30 +49,54 @@ closeMenu = () => {
 let activite = [
     {
         image: "../assets/image/activite-scolaire.jpg",
-        title: "Arts",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, numquam.",
-        link: "VOIR PLUS"
-    },
-
-    {
-        image: "../assets/image/activite-scolaire.jpg",
-        title: "Arts",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, numquam.",
+        title: "Atelier d’Arts Plastiques",
+        description: "Les élèves explorent la peinture, le dessin et la sculpture pour exprimer leur créativité et découvrir différents styles artistiques.",
         link: "VOIR PLUS"
     },
     {
-        image: "../assets/image/activite-scolaire.jpg",
-        title: "Arts",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, numquam.",
+        image: "../assets/image/competitionFootball.png",
+        title: "Tournoi de Football",
+        description: "Un grand tournoi interclasses qui permet aux élèves de renforcer l’esprit d’équipe et la discipline à travers le sport.",
         link: "VOIR PLUS"
     },
     {
-        image: "../assets/image/activite-scolaire.jpg",
-        title: "Arts",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, numquam.",
+        image: "../assets/image/basket-scolaire.png",
+        title: "Compétition de Basketball",
+        description: "Nos équipes mixtes s’affrontent dans une ambiance conviviale, alliant performance sportive et fair-play.",
         link: "VOIR PLUS"
     },
+    {
+        image: "../assets/image/club-theatre.jpg",
+        title: "Club de Théâtre",
+        description: "Les élèves apprennent à jouer la comédie, développer leur confiance en soi et présenter des pièces en fin d’année.",
+        link: "VOIR PLUS"
+    },
+    {
+        image: "../assets/image/young conductor.jpg",
+        title: "Atelier de Musique",
+        description: "Découverte des instruments, apprentissage du rythme et formation d’un orchestre scolaire pour les passionnés de musique.",
+        link: "VOIR PLUS"
+    },
+    {
+        image: "../assets/image/les sciences de scentifica.jpg",
+        title: "Foire Scientifique",
+        description: "Les jeunes scientifiques présentent leurs expériences et projets innovants lors de notre exposition annuelle.",
+        link: "VOIR PLUS"
+    },
+    {
+        image: "../assets/image/club de lecture.jpg",
+        title: "Club de Lecture",
+        description: "Un espace d’échange où les élèves partagent leurs coups de cœur littéraires et participent à des concours de lecture.",
+        link: "VOIR PLUS"
+    },
+    {
+        image: "../assets/image/technologie.jpg",
+        title: "Technologie",
+        description: "Une activité dédiée à la protection de l’environnement : plantation d’arbres, nettoyage du quartier et ateliers éco-citoyens.",
+        link: "VOIR PLUS"
+    }
 ];
+
 
 
 
